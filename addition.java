@@ -3,7 +3,7 @@ public class AddTwoNumbers2 {
 
     public static void main(String[] args) {
         
-        int num1, num2, sum, sub,sub1;
+        int num1, num2, sum, sub,mul;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number: ");
         num1 = sc.nextInt();
@@ -17,5 +17,9 @@ public class AddTwoNumbers2 {
 
 	sub = num1 + num2;
 	System.out.println("Subtraction of two numbers:" +sub);
+
+	mul = num1 + num2;
+	System.out.println("Multiplication of two numbers:" +mul);
+
     }
 }
