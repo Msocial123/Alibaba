@@ -18,7 +18,7 @@ public class AddTwoNumbers2 {
 	sub = num1 + num2;
 	System.out.println("Subtraction of two numbers:" +sub);
 
-	mul = num1 + num2;
+	mul = num1 + num2 + num3;
 	System.out.println("Multiplication of two numbers:" +mul);
 
     }
